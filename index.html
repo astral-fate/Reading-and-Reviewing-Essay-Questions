@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h1>Essay Question <span id="question-number">1</span></h1>
+            <p id="question-title"></p>
+        </div>
+        <div class="quiz-content">
+            <div class="question-box">
+                <h3>Question:</h3>
+                <p id="question-text"></p>
+            </div>
+            <button id="toggle-answer" class="toggle-button">Show Model Answer</button>
+            <div id="answer-box" class="answer-box hidden">
+                <h3>Model Answer:</h3>
+                <p id="answer-text"></p>
+            </div>
+            <div class="rubric-box">
+                <h3>Grading Rubric:</h3>
+                <ul id="rubric-list"></ul>
+            </div>
+        </div>
+        <div class="quiz-navigation">
+            <button id="prev-button" class="nav-button">Previous</button>
+            <button id="next-button" class="nav-button">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
